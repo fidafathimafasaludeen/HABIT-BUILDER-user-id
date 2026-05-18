@@ -1,0 +1,64 @@
+/* ===== app.css ===== */
+
+.app-wrapper {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  min-height: 100vh;
+  position: relative;
+  padding: 0 20px;
+}
+
+/* ── App Header ── */
+.app-header {
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
+  padding: 24px 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+[data-theme="dark"] .app-header {
+  background: linear-gradient(135deg, #16103a, #221a50);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+why is the 
+.header-title {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.header-sub {
+  color: rgba(255,255,255,0.75);
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+.header-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.icon-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.2);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background var(--transition), transform var(--transition);
+}
+
+.icon-btn:hover {
+  background: rgba(255,255,255,0.32);
+  transform: scale(1.08);
+}

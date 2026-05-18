@@ -1,0 +1,72 @@
+/* ===== GLOBAL RESPONSIVE DESIGN ===== */
+
+@media (min-width: 768px) {
+
+  html {
+    font-size: 17px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .modal-card {
+    max-width: 700px;
+    border-radius: 24px;
+  }
+
+  .toast {
+    font-size: 15px;
+    padding: 14px 28px;
+  }
+
+  .modal-input {
+    font-size: 16px;
+    padding: 16px 20px;
+  }
+
+  .btn-add,
+  .btn-save,
+  .btn-delete {
+    font-size: 16px;
+    padding: 16px;
+  }
+
+  .emoji-grid {
+    gap: 12px;
+  }
+
+  .emoji-item {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+  }
+
+  .color-dot {
+    width: 38px;
+    height: 38px;
+  }
+
+  .empty-state {
+    padding: 80px 20px;
+  }
+
+  .empty-emoji {
+    font-size: 72px;
+  }
+
+  .empty-state p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  html {
+    font-size: 18px;
+  }
+
+  .modal-card {
+    max-width: 850px;
+  }
+}
